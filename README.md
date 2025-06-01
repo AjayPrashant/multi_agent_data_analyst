@@ -25,7 +25,7 @@ A **Multi-Agent Data Analysis System** with **LLM-powered agents**, running full
 ---
 
 ## 🗂 Project Structure
-
+```text
 multi_agent_data_analyst/
 ├── agents/ # LLM agents
 ├── orchestrator/ # Pipeline orchestrator
@@ -37,6 +37,7 @@ multi_agent_data_analyst/
 ├── requirements.txt # Dependencies
 ├── .gitignore # Git ignore config
 └── README.md # This file
+```
 
 ---
 
