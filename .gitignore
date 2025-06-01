@@ -1,29 +1,34 @@
-# Byte-compiled / optimized / DLL files
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.pkl
 
 # Virtual environment
 venv/
-.env
-.env.*
+
+# Streamlit cache
+.streamlit/
+
+# Model files (keep folder, ignore big models)
+models/*
+!models/.gitkeep
 
 # Logs
 logs/
 *.log
 
-# Models (only keep the folder)
-models/*
-!models/.gitkeep
-
 # Outputs
 outputs/
 outputs/**
 
-# Jupyter Notebook checkpoints (if you ever use notebooks)
+# Jupyter notebook checkpoints (if used)
 .ipynb_checkpoints/
 
-# macOS system files
+# macOS junk
 .DS_Store
 
-# VSCode / PyCharm settings
+# dotenv
+.env
+.env.*

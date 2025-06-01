@@ -1,19 +1,16 @@
+# Core MAS pipeline dependencies
 pandas
-pyarrow
-pydantic
+numpy
 scikit-learn
-category_encoders
 matplotlib
 seaborn
-plotly
 ydata-profiling
-xgboost
-lightgbm
-joblib
-markdown
-jinja2
-weasyprint
-langchain
-# llama-cpp-python
+
+# Streamlit app
+streamlit
+
+# Local LLaMA cpp inference
+llama-cpp-python==0.2.64
+
+# Optional utilities
 python-dotenv
-hydra-core
