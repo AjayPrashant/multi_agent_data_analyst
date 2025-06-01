@@ -1,0 +1,19 @@
+pandas
+pyarrow
+pydantic
+scikit-learn
+category_encoders
+matplotlib
+seaborn
+plotly
+ydata-profiling
+xgboost
+lightgbm
+joblib
+markdown
+jinja2
+weasyprint
+langchain
+# llama-cpp-python
+python-dotenv
+hydra-core

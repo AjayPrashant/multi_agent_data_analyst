@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Models (only keep the folder)
+models/*
+!models/.gitkeep
+
+# Outputs
+outputs/
+outputs/**
+
+# Jupyter Notebook checkpoints (if you ever use notebooks)
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# VSCode / PyCharm settings
