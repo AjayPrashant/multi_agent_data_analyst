@@ -95,6 +95,7 @@ python-dotenv
 | ModelingLLMAgent      | Suggest model & hyperparameters |
 | ReportingLLMAgent     | Generate final report           |
 
-LLM Backed:
-
+LLM Backend:
+```text
 llama-cpp-python + Mistral 7B Instruct v0.3
+```
